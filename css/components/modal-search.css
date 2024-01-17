@@ -9,6 +9,9 @@
     justify-content: center;
     align-items: center;
     visibility: hidden;
+    z-index: 999;
+    opacity: 0;
+    transition: .3s ease all;
 }
 
 .modal-search::after {
@@ -75,7 +78,7 @@
     border: 1px solid #dee0ea;
 }
 
-.modal-search .search-form i {
+.modal-search .search-form button i {
     font-size: 18px;
     color: #7a7a7a;
 }
@@ -138,8 +141,8 @@
 
 .modal-search .bi-x-circle {
     position: absolute;
-    top: 5;
-    right: 10;
+    top: 5px;
+    right: 10px;
     font-size: 20px;
     cursor: pointer;
 }
