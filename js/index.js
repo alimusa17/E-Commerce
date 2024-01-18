@@ -54,25 +54,25 @@ document.addEventListener("click", function (e) {
 
 //! search modal end
 
-//? ------------------ 
+//? ------------------
 
 //! slider start
 let slideIndex = 1;
 showSlides(slideIndex);
 
-setInterval(()=>{
+setInterval(() => {
   showSlides((slideIndex += 1));
 }, 4000);
 
-function plusSlide(n){
+function plusSlide(n) {
   showSlides((slideIndex += n));
 }
 
-function currentSlide(n){
+function currentSlide(n) {
   showSlides((slideIndex = n));
 }
 
-function showSlides(n){
+function showSlides(n) {
   const slides = document.getElementsByClassName("slider-item");
   const dots = document.getElementsByClassName("slider-dot");
 
@@ -80,7 +80,7 @@ function showSlides(n){
     slideIndex = 1;
   }
 
-  if(n < 1){
+  if (n < 1) {
     slideIndex = slides.length;
   }
 
@@ -97,3 +97,16 @@ function showSlides(n){
 }
 
 //! slider end
+
+//! add product to localStorage
+async function getData() {
+  const photos = await fetch("../js/data.json");
+  const data = await photos.json();
+
+  data ? localStorage.setItem("products", JSON.stringify(data)) : [];
+}
+
+getData();
+
+const products = localStorage.getItem("products");
+console.log(JSON.parse(products));
