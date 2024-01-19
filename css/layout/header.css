@@ -233,7 +233,7 @@ header .menu-dropdown-content a:hover {
         transition: .5s ease all;
     }
 
-    .header-centre .bi-x-circle {
+    .header-center .bi-x-circle {
         display: inline-block;
         position: absolute;
         top: 15px;
@@ -242,7 +242,7 @@ header .menu-dropdown-content a:hover {
         cursor: pointer;
     }
 
-    .header-center .menu-lis {
+    .header-center .menu-list {
         flex-direction: column;
         padding: 50px 75px;
     }
