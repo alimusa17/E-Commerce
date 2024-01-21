@@ -10,7 +10,7 @@ function displayCartProduct(){
         <tr class="cart-item">
         <td></td>
         <td class="cart-image">
-            <img src="${item.img.singleImage}" alt="">
+            <img src=${item.img.singleImage} alt="">
             <i class="bi bi-x delete-cart" data-id=${item.id}></i>
         </td>
         <td>${item.name}</td>
