@@ -79,7 +79,7 @@
     transition: .2s ease all;
 }
 
-.site-main .colors .color-wrapper .active {
+.site-main .colors .color-wrapper.active {
     border-color: #e51414;
 }
 
@@ -167,6 +167,12 @@
 
 .site-main .cart-button button {
     width: 100%;
+}
+
+.site-main .cart-button button:disabled {
+    background-color: #1367ef;
+    color: #fff;
+    border-color: #1367ef;
 }
 
 .site-main .product-extra-buttons {
