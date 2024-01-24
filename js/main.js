@@ -8,7 +8,7 @@ import searchFunc from "./search.js";
   const data = await photos.json();
 
   data ? localStorage.setItem("products", JSON.stringify(data)) : [];
-  productsFunc(); 
+  productsFunc(data); 
   searchFunc(data); 
 })();
 //! add product to localStorage end
@@ -20,3 +20,24 @@ cartItems.innerHTML = localStorage.getItem("cart") ? JSON.parse(localStorage.get
 
 
 //! add cartItems to localStorage end
+
+
+//! modal dialog start
+const modalDialogDOM = document.querySelector(".modal-dialog");
+const modalContentDOM = document.querySelector(".modal-dialog .modal-content");
+const btnCloseDialog = document.querySelector(".modal-dialog .modal-close");
+
+btnCloseDialog.addEventListener("click", function(){
+modalDialogDOM.classList.remove("show");
+});
+
+document.addEventListener("click", (e)=>{
+  if(!e.composedPath().includes(modalContentDOM)){
+    modalDialogDOM.classList.remove("show");
+}
+});
+
+setTimeout(() => {
+modalDialogDOM.classList.add("show");
+}, 3000);
+//! modal dialog end

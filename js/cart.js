@@ -51,7 +51,6 @@ function saveCartValues(){
     let itemsTotal = 0;
 
     cart.length > 0 && cart.map((item)=> (itemsTotal += item.price.newPrice * item.quantity)); 
-    console.log(itemsTotal);
     subtotal.innerHTML = `$${itemsTotal.toFixed(2)}`;
     cartTotal.innerHTML = `$${itemsTotal.toFixed(2)}`;
     
