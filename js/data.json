@@ -1,86 +1,115 @@
 [
     {
         "id": 1,
-        "name": "Analogue Resin Strap",
+        "name": "Fitted Shirt Collar Long Sleeve Shirt",
         "price": {
-            "oldPrice": 165.00,
-            "newPrice": 108.00
+            "oldPrice": 200.00,
+            "newPrice": 150.00
         },
-        "discount": 22,
+        "discount": 25,
         "img": {
             "singleImage": "img/products/product1/1.png",
             "thumbs": [
                 "img/products/product1/1.png",
                 "img/products/product1/2.png",
-                "img/products/product1/3.png"
+                "img/products/product1/3.png",
+                "img/products/product1/4.png",
+                "img/products/product1/5.png",
+                "img/products/product1/6.png",
+                "img/products/product1/7.png",
+                "img/products/product1/8.png",
+                "img/products/product1/9.png"
             ]
         }
     },
     {
         "id": 2,
-        "name": "Ridley High Waist",
+        "name": "Relax Fit Long Sleeve Cotton Tunic",
         "price": {
-            "oldPrice": 208.00,
-            "newPrice": 100.00
+            "oldPrice": 170.00,
+            "newPrice": 119.00
         },
-        "discount": 33,
+        "discount": 30,
         "img": {
             "singleImage": "img/products/product2/1.png",
             "thumbs": [
                 "img/products/product2/1.png",
                 "img/products/product2/2.png",
-                "img/products/product2/3.png"
+                "img/products/product2/3.png",
+                "img/products/product2/4.png",
+                "img/products/product2/5.png",
+                "img/products/product2/6.png",
+                "img/products/product2/7.png",
+                "img/products/product2/8.png",
+                "img/products/product2/9.png",
+                "img/products/product2/10.png"
             ]
         }
     },
     {
         "id": 3,
-        "name": "Blush Beanie",
+        "name": "Relax Fit Patterned Viscose Shirt Tunic",
         "price": {
-            "oldPrice": 165.00,
-            "newPrice": 38.00
+            "oldPrice": 140.00,
+            "newPrice": 70.00
         },
-        "discount": 90,
+        "discount": 50,
         "img": {
             "singleImage": "img/products/product3/1.png",
             "thumbs": [
                 "img/products/product3/1.png",
                 "img/products/product3/2.png",
-                "img/products/product3/3.png"
+                "img/products/product3/3.png",
+                "img/products/product3/4.png",
+                "img/products/product3/5.png",
+                "img/products/product3/6.png",
+                "img/products/product3/7.png",
+                "img/products/product3/8.png"
             ]
         }
     },
     {
         "id": 4,
-        "name": "Mercury Tee",
+        "name": "Regular Fit Long Sleeve Shirt",
         "price": {
-            "oldPrice": 165.00,
-            "newPrice": 48.00
+            "oldPrice": 217.00,
+            "newPrice": 180.00
         },
-        "discount": 40,
+        "discount": 17,
         "img": {
             "singleImage": "img/products/product4/1.png",
             "thumbs": [
                 "img/products/product4/1.png",
                 "img/products/product4/2.png",
-                "img/products/product4/3.png"
+                "img/products/product4/3.png",
+                "img/products/product4/4.png",
+                "img/products/product4/5.png",
+                "img/products/product4/6.png",
+                "img/products/product4/7.png",
+                "img/products/product4/8.png",
+                "img/products/product4/9.png",
+                "img/products/product4/10.png",
+                "img/products/product4/11.png",
+                "img/products/product4/12.png"
             ]
         }
     },
     {
         "id": 5,
-        "name": "La Bohème Rose Gold",
+        "name": "Cool Oversize Long Sleeve Shirt Tunic",
         "price": {
-            "oldPrice": 165.00,
-            "newPrice": 48.00
+            "oldPrice": 180.00,
+            "newPrice": 117.00
         },
-        "discount": 40,
+        "discount": 35,
         "img": {
             "singleImage": "img/products/product5/1.png",
             "thumbs": [
                 "img/products/product5/1.png",
                 "img/products/product5/2.png",
-                "img/products/product5/3.png"
+                "img/products/product5/3.png",
+                "img/products/product5/4.png",
+                "img/products/product5/5.png"
             ]
         }
     }
