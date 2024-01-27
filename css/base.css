@@ -40,10 +40,9 @@ p {
     margin: 0 auto;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: 500;
-    display: flex;
+.logo-img {
+    width: 70px;
+    height: 60px;
 }
 
 button {

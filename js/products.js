@@ -2,7 +2,7 @@ import { product1 } from "./glide.js";
 
 let cart = localStorage.getItem("cart")
   ? JSON.parse(localStorage.getItem("cart"))
-  : [];  
+  : [];
 
 function addToCart(products) {
   const cartItems = document.querySelector(".header-cart-count");
@@ -27,20 +27,19 @@ function addToCart(products) {
   });
 }
 
-function productRoute(){
+function productRoute() {
   const productLink = document.getElementsByClassName("product-link");
-  Array.from(productLink).forEach((button)=> {
-    button.addEventListener("click", function(e){
+  Array.from(productLink).forEach((button) => {
+    button.addEventListener("click", function (e) {
       e.preventDefault();
       const id = e.target.dataset.id;
-      localStorage.setItem("productId", JSON.stringify(id))
+      localStorage.setItem("productId", JSON.stringify(id));
       window.location.href = "single-product.html";
     });
-  })
+  });
 }
 
-
-function productsFunc(products) {  
+function productsFunc(products) {
   const productsContainer = document.getElementById("product-list");
 
   let results = "";
