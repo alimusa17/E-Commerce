@@ -144,6 +144,6 @@ input[type="number"]::-webkit-inner-spin-button {
 
 @media (max-width: 420px) {
     .container {
-        max-width: 350px;
+        max-width: 335px;
     }
 }
