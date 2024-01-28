@@ -47,7 +47,7 @@ function productsFunc(products) {
     results += `
     <li class="product-item glide__slide">
         <div class="product-image">
-            <a href="#" class="product-link" data-id=${item.id}>
+            <a href="#">
                 <img src=${item.img.singleImage} alt="" class="img1">
                 <img src=${item.img.thumbs[1]} alt="" class="img2">
             </a>
